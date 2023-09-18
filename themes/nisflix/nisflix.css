@@ -1,0 +1,62 @@
+@import url(https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/default.css);@import url('https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/addons/Logo.css');
+@import url('https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/addons/Logo.css');
+
+.pageTitleWithDefaultLogo {
+    background-image: url(https://i.postimg.cc/5tHXsLDf/nisflix.png);
+  }
+
+.homeLibraryButton:hover,
+.homeLibraryButton:focus,
+.card:hover,
+.card:focus {
+  transform: scale(1.5) !important;
+  -webkit-filter: none !important;
+  filter: none !important;
+  box-shadow: 0 0 20px black;
+}
+
+
+/*pan the background for backdrops*/
+@keyframes backgroundScroll {
+0% { background-position: 99% 1%; opacity:0;}
+33% { background-position: 50% 50%;opacity:1;}
+40% { background-position: 99% 99%; opacity:0;}
+66% { background-position: 50% 50%; }
+75% { background-position: 1% 1%; }
+100% { background-position: 50% 50%; }}
+.backdropImage {background-size: 150% 150%;  opacity:0 ;background-position: 99% 1%; animation: backgroundScroll 60s ease-in-out 1s;}
+
+@keyframes backgroundScrollmob {
+0% { background-position: 99% 1%; opacity:0;}
+33% { background-position: 50% 50%;opacity:1;}
+40% { background-position: 1% 99%; opacity:0}
+66% { background-position: 99% 50%; }
+75% { background-position: 99%% 99%; }
+100% { background-position: 50% 50%; }}
+@media (max-width: 600px) {
+  .backdropImage {background-size: 150% 150% cover; opacity:0 ; background-position: 99% 1%; animation: backgroundScrollmob 60s ease-in-out 1s;}
+}
+
+.padded-left padded-right flex align-items-center justify-content-center {
+  background-image: url('https://i.postimg.cc/63kYcf5j/nisflix-XXL.png');
+}
+/*Hide "please login" text, margin is to prevent login form moving too far up*/
+#loginPage h1 {display: none}
+#loginPage .padded-left.padded-right.padded-bottom-page {
+transform: 50%, 50%;
+margin-top: 5em;
+
+}
+
+@media (max-width: 768px) {
+  #loginPage .padded-left.padded-right.padded-bottom-page {
+    transform: 50%, 50%;
+margin-top: 12em;
+  }
+}
+
+@media (max-height: 768px) and (orientation: landscape) {
+    #loginPage .padded-left.padded-right.padded-bottom-page {
+margin-top: 12em;
+  }
+}
