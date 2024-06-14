@@ -8,7 +8,11 @@
     --accent-icon: #D90000 !important;
     --swiper-theme-color: #d90000 !important;
 }
-@import url("@import url(https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Outline.css");
+
+@import url("@import url(https://cdn.jsdelivr.net/gh/Niskeletor/Nisflix/themes/nisflix-v2/Outline.css");
+/*@import url("@import url(https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Outline.css");*/
+
+
 html {font-family:  'K2D',sans-serif ;  } body,h1,h2,h3 { font-family: 'K2D' ,sans-serif;}
 
 * {
