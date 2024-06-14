@@ -1,4 +1,6 @@
 /*Fonts */
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/Niskeletor/Nisflix/themes/nisflix-v2/Outline.css');
 :root {
     --rounding: 10px;
     --card-rounding: 10px 10px 0px 0px;
@@ -8,8 +10,7 @@
     --accent-icon: #D90000 !important;
     --swiper-theme-color: #d90000 !important;
 }
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/Niskeletor/Nisflix/themes/nisflix-v2/Outline.css');
+
 /* @import url('https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Outline.css'); */
 
 html {
