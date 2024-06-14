@@ -1,6 +1,6 @@
 
-
 @import url('https://cdn.jsdelivr.net/gh/Niskeletor/Nisflix/themes/nisflix-v2/Outline.css');
+
 @font-face {
     font-family: 'Commodore';
     src: url('https://github.com/Niskeletor/Nisflix/raw/master/themes/nisflix-v2/fonts/commodore.ttf') format('truetype');
@@ -8,10 +8,9 @@
     font-style: normal;
 }
 
-/*Fonts
+/* Si no necesitas la fuente 'K2D', puedes dejar esta línea comentada
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap');
 */
-
 
 :root {
     --rounding: 10px;
