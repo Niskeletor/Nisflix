@@ -13,11 +13,11 @@
 /* @import url('https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Outline.css'); */
 
 html {
-    font-family: 'Commodore', sans-serif;
+    font-family: 'Commodore', sans-serif !important;
 }
 
 body, h1, h2, h3 {
-    font-family: 'Commodore', sans-serif;
+    font-family: 'Commodore', sans-serif !important;
 }
 
 * {
