@@ -1,9 +1,17 @@
-@font-face {
+/*@font-face {
     font-family: 'Material Icons Outlined';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v55/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
+}*/
+
+@font-face {
+    font-family: 'Commodore';
+    src: url('https://github.com/Niskeletor/Nisflix/raw/master/themes/nisflix-v2/fonts/commodore.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 .material-icons {
     font-family: 'Material Icons Outlined' !important;
