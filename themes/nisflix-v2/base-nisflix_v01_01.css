@@ -52,7 +52,15 @@ body, h1, h2, h3 {
 	border-color: #d90000 !important;
 }
 #indexPage .raised::before {
-	background: #d90000 !important;
+	background: #d90000 !import
+    
+    
+    
+    
+    
+    
+    
+    ant;
 }
 .button-flat:hover {
 	color: #d90000 !important;
@@ -1414,12 +1422,12 @@ html:not(.layout-mobile) #loginPage .inputLabel:not(.inputLabel-float) {
 }
 
 .layout-mobile #loginPage {
-    background: rgb(217,0,0) !important;
+    /*background: rgb(217,0,0) !important;*/
     overflow: scroll;
 }
 
 .layout-mobile #loginPage .padded-left.padded-right.padded-bottom-page {
-    background: #eee;
+    /*background: #eee;*/
     width: 80%;
     color: #373737;
     border-radius: 5px;
